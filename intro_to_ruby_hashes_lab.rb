@@ -24,9 +24,10 @@ end
 
 def update_counting_hash(hash, key)
   hash = {key => 2,}
-  if hash[:oranges] 
-    hash[:oranges] = 1 
-  else
+  if hash[key] 
     hash[key] += 1 
+  else
+    hash[:oranges]
+    
 end
 end
