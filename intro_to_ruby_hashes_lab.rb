@@ -30,4 +30,5 @@ def update_counting_hash(hash, key)
     hash[:oranges]
     hash[:oranges] = 1
 end
+return hash 
 end
