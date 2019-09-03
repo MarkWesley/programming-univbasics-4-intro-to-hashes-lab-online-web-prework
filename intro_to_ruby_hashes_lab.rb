@@ -29,6 +29,5 @@ def update_counting_hash(hash, key)
   else
     hash[:oranges]
     hash[:oranges] = 1
-    return hash 
 end
 end
